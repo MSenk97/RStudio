@@ -17,8 +17,8 @@ menu:
       url: /about/
       weight: 3
 params:
-  author: John Doe
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  author: Marko Šenk
+  description: Marko Šenk
   menu_item_separator: ' - '
   social:
     - icon: github
