@@ -1,8 +1,11 @@
 ---
-date: "1012-01-03"
+date: "2021-09-01"
 tags:
-- test
+- SolarRadiation
+- Histogram
 title: Test 3
 ---
 
-Test 3
+![Solar Radiation](/posts/test-3_files/Rplot2.png)
+
+

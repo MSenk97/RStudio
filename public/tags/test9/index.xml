@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test9 on RStudio Analysis</title>
+    <link>https://rstudioanalysis.netlify.app/tags/test9/</link>
+    <description>Recent content in test9 on RStudio Analysis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 09 Jan 1012 00:00:00 +0000</lastBuildDate><atom:link href="https://rstudioanalysis.netlify.app/tags/test9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test 9</title>
+      <link>https://rstudioanalysis.netlify.app/posts/test-9/</link>
+      <pubDate>Thu, 09 Jan 1012 00:00:00 +0000</pubDate>
+      
+      <guid>https://rstudioanalysis.netlify.app/posts/test-9/</guid>
+      <description>Test 9</description>
+    </item>
+    
+  </channel>
+</rss>

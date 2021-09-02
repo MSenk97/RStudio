@@ -5,14 +5,15 @@
     <link>https://rstudioanalysis.netlify.app/tags/test/</link>
     <description>Recent content in test on RStudio Analysis</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 09 Jan 1012 00:00:00 +0000</lastBuildDate><atom:link href="https://rstudioanalysis.netlify.app/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rstudioanalysis.netlify.app/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test 9</title>
-      <link>https://rstudioanalysis.netlify.app/posts/test-9/</link>
-      <pubDate>Thu, 09 Jan 1012 00:00:00 +0000</pubDate>
+      <title>Test 1</title>
+      <link>https://rstudioanalysis.netlify.app/posts/test-1/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rstudioanalysis.netlify.app/posts/test-9/</guid>
-      <description>Test 9</description>
+      <guid>https://rstudioanalysis.netlify.app/posts/test-1/</guid>
+      <description>Test 1 I am referencing a footnote1
+1package main 2 3import &amp;#34;fmt&amp;#34; 4 5func main() { 6 fmt.Println(&amp;#34;{linenos=inline}&amp;#34;) 7} 1 2 3 4 5 6 7  package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;{linenos=table}&amp;#34;) }   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in dictum tortor.Morbi laoreet enim id sem euismod lobortis. Donec quam libero, bibendum non cursus vitae, dictum vel eros.  I am the footnote&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     
     <item>
@@ -58,34 +59,6 @@
       
       <guid>https://rstudioanalysis.netlify.app/posts/test-4/</guid>
       <description>Test 4</description>
-    </item>
-    
-    <item>
-      <title>Test 3</title>
-      <link>https://rstudioanalysis.netlify.app/posts/test-3/</link>
-      <pubDate>Fri, 03 Jan 1012 00:00:00 +0000</pubDate>
-      
-      <guid>https://rstudioanalysis.netlify.app/posts/test-3/</guid>
-      <description>Test 3</description>
-    </item>
-    
-    <item>
-      <title>Test 2</title>
-      <link>https://rstudioanalysis.netlify.app/posts/test-2/</link>
-      <pubDate>Thu, 02 Jan 1012 00:00:00 +0000</pubDate>
-      
-      <guid>https://rstudioanalysis.netlify.app/posts/test-2/</guid>
-      <description>Test 2</description>
-    </item>
-    
-    <item>
-      <title>Test 1</title>
-      <link>https://rstudioanalysis.netlify.app/posts/test-1/</link>
-      <pubDate>Wed, 01 Jan 1012 00:00:00 +0000</pubDate>
-      
-      <guid>https://rstudioanalysis.netlify.app/posts/test-1/</guid>
-      <description>Test 1 I am referencing a footnote1
-1package main 2 3import &amp;#34;fmt&amp;#34; 4 5func main() { 6 fmt.Println(&amp;#34;{linenos=inline}&amp;#34;) 7} 1 2 3 4 5 6 7  package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;{linenos=table}&amp;#34;) }   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in dictum tortor. Morbi laoreet enim id sem euismod lobortis. Donec quam libero, bibendum non cursus vitae, dictum vel eros.   I am the footnote&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     
   </channel>
