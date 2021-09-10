@@ -1,0 +1,43 @@
+---
+title: "Test 3"
+author: "Marko Šenk"
+date: "09-09-2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rgl)
+knitr::opts_chunk$set(echo = TRUE)
+knit_hooks$set(webgl=hook_webgl)
+```
+
+## R Markdown: Prosječna temperatura
+
+Ovo je R Markdown dokument
+
+## Including Plots
+
+Ovo je 3D graf koji prikazuje potrese te njihove parametre:
+
+```{r pressure, echo=FALSE, webgl= TRUE, fig.show="hide"}
+
+library(plot3D); 
+library(rgl); 
+library(plot3Drgl)
+
+
+volc <- reshape2::melt(volcano)  
+
+with(volc, scatter3D(x = Var1, y = Var2, z = value, ticktype="detailed", pch=16, 
+                     xlab="longitude", ylab="latitude", zlab="depth, km", main=""))
+plotrgl(lighting = TRUE, smooth = TRUE, cex=1.5)
+
+title3d(main = "Earthquakes off Fiji", line=4, cex=2)
+
+next3d(clear = F)
+title3d("R. Magnitude", cex = 1, line = 22)
+
+next3d(clear = F) 
+```
+

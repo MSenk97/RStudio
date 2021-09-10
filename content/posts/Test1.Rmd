@@ -1,0 +1,33 @@
+---
+title: "Test 1"
+author: "Marko Šenk"
+date: "09-09-2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown: Solarna radijacija
+
+Ovo je R Markdown dokument
+
+## Including Plots
+
+Ovo je graf koji prikazuje frekvenciju solarne radijacije po mjesecima u godini:
+
+```{r pressure, echo=FALSE}
+options(warn = - 1)  
+library(help='datasets')
+library(ggplot2)
+
+ggplot(airquality, aes(x = Solar.R)) +
+  geom_histogram(color = 'darkgray', fill = 'white', binwidth = 25) +
+  labs(x = 'Solar Radiation', y = 'Count', title = 'Histogram of Solar Radiation') + 
+  geom_vline(aes(xintercept = mean(Solar.R, na.rm = TRUE), color = 'mean'), show.legend = TRUE, size = 2) +
+  geom_vline(aes(xintercept = median(Solar.R, na.rm = TRUE), color = 'median'), show.legend = TRUE) +
+  scale_y_continuous(limits=c(0,23))
+
+```
+

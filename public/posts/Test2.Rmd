@@ -1,0 +1,28 @@
+---
+title: "Test 2"
+author: "Marko Šenk"
+date: "09-09-2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown: Prosječna temperatura
+
+Ovo je R Markdown dokument
+
+## Including Plots
+
+Ovo je graf koji prikazuje prosječnu temperaturu na južnom polu po mjesecima:
+
+```{r pressure, echo=FALSE}
+options(warn = - 1)  
+X <- c(1:12)
+Y <- c(-28.2, -40.9, -54, -57.3, -57, -58, -59.7, -60, -59.4, -51.1, -38.3, -27.5)
+
+plot(X,Y,xlab = "Month", ylab = "Average Daily Temperature (C)",
+     main = "South Pole, Annual Temperature", type="o", pch = 20, lwd = 2, col="red")
+
+```
