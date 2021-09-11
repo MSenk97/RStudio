@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rstudioanalysis.netlify.app/about/</loc>
+  </url><url>
     <loc>https://rstudioanalysis.netlify.app/categories/</loc>
   </url><url>
     <loc>https://rstudioanalysis.netlify.app/posts/</loc>
-  </url><url>
-    <loc>https://rstudioanalysis.netlify.app/about/</loc>
   </url><url>
     <loc>https://rstudioanalysis.netlify.app/</loc>
   </url><url>
