@@ -15,7 +15,7 @@ Ovo je R Markdown dokument
 
 ## Including Plots
 
-Ovo je graf koji prikazuje frekvenciju solarne radijacije po mjesecima u godini:
+Ovo je graf koji prikazuje frekvenciju solarne radijacije s obzirom na jačinu:
 
 ```{r pressure, echo=FALSE}
 options(warn = - 1)  
